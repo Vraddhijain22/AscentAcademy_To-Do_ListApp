@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('bg.img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  
+  }
+  
+  .container {
+    border-color: rgb(14,13,13);
+    background-color: rgba(93,30,30,0.934);
+    width: 1050px;
+    height: 600px;
+    position: absolute;
+    overflow: hidden;
+    top: 42%;
+    left: 25%;
+    margin-left: -175px;
+    margin-top: -250px;
+    border-radius: 8px;
+    box-shadow: rgba(4, 146, 247, 0.934) 0px 5px 15px 0px;
+  }
+  
+  .nav {
+    background-color: rgba(43, 237, 237, 0.633);
+    width: 250px;
+    height: 600px;
+    position: absolute;
+    overflow: hidden;
+    top: 42%;
+    left: 25%;
+    margin-left: -280px;
+    margin-top: -253px;
+    border-radius: 8px;
+    border: 1px solid rgba(164, 164, 164, 0.393);
+    align-items: center;
+  }
+  
+  .head {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(43, 237, 98, 0.633);
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  #middle {
+    margin-top: 53px;
+    padding-top: 10px;
+    background-color: rgba(30, 88, 224, 0.562);
+    height: 500px;
+    align-content: space-evenly;
+  
+  }
+  
+  .nav-item {
+    background-color: rgba(255, 255, 255, 0.473);
+    padding-left: 30px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid whitesmoke;
+  }
+  
+  .bottom {
+    margin-top: 180px;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    background-color: rgba(122, 232, 12, 0.782);
+    padding-left: 30px;
+  }
+  
+  .logo {
+    margin-right: 15px;
+    margin-left: 30px;
+  
+  }
+  
+  .task {
+    margin-left: 232px;
+  }
+  
+  .heading {
+    margin-left: 10px;
+  }
+  
+  #lists {
+    width: 830px;
+    height: 450px;
+    background-color: inherit;
+    margin-top: 20px;
+    overflow-y: scroll;
+  }
+  
+  #lists::-webkit-scrollbar {
+    display: none;
+    overflow-y: scroll;
+  }
+  
+  .newtodo {
+  
+    display: inline-block;
+    text-align: justify;
+  }
+  
+  .box {
+    
+    position: sticky;
+    width: 1000px;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 10px 32px 0 rgba(191, 6, 232, 0.37);
+    backdrop-filter: blur(4px);
+  
+  }
+  
+  .init {
+    width: 485px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    background: transparent;
+    padding-right: 10px;
+    font-size: 20px;
+  
+  }
+  
+  .btn {
+    width: 50px;
+    height: 34px;
+    border-radius: 5px;
+    border-color: rgb(230, 8, 222);
+    margin-left: 180px;
+  }
+  
+  .newTask {
+    width: 650px;
+    margin-left: 20px;
+  }
+  
+  
+  .todolist {
+  
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
+  
+  }
+  
+  .todolist2 {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+  
+  /* quick notes */
+  .quick {
+    width: 200px;
+    height: 200px;
+    background-color: inherit;
+    border: 1px solid rgb(160, 150, 150);
+  }
+  
+  #quicktext {
+    margin-top: 1px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(160, 150, 150);
+    background-color:aliceblue;
+    padding-right: 10px;
+    font-size: 20px;
+  
+  }
+  
+  .btn1 {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: azure;
+    margin-left: 4px;
+    font-size: 10px;
+  }
